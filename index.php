@@ -32,6 +32,7 @@
 			<?php foreach ($pizzas as $pizza): ?>
 				<div class="col s6 m3">
 					<div class="card z-deph-0">
+						<img src="img/pizza.svg" class="pizza">
 						<div class="card-content cemter">
 							<h6><?php echo htmlspecialchars($pizza['title']); ?></h6>
 							<ul>
